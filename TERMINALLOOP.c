@@ -14,5 +14,6 @@ int main(int ac __attribute__((unused)), char **av __attribute__((unused)))
      if (int_mode == 1)
      {
        write(STDOUT_FILENO, “~$ “, 13);
+       read(STDIN_FILENO)
      }
   }
